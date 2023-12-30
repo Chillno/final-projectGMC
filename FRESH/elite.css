@@ -1,0 +1,322 @@
+
+body {
+
+    transition: background-color 0.3s;
+}
+
+/* For Webkit Browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+
+    width: 12px; /* Set the width of the scrollbar */
+
+}
+  
+::-webkit-scrollbar-thumb {
+
+    background-color: #00a1280e; /* Set the color of the thumb */
+
+}
+  
+::-webkit-scrollbar-track {
+
+     /* Set the color of the track */
+
+}
+  
+::-webkit-scrollbar-thumb:hover {
+
+    background-color: #00A129; /* Set the color of the thumb on hover */
+
+}
+
+.mode-button {
+
+    padding: 10px 20px;
+    font-size: 16px;
+    border-color: #333;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.mode-button:hover {
+
+    background-color: #aeb6b0;
+    
+}
+
+.dark-mode {
+
+    background-color: #333;
+    color: #fff;
+
+}
+
+.navbar {
+
+    position: sticky;
+    background: linear-gradient(to left, #00A129, #00a12800); /* Change colors from right to left */
+    top: 0;
+    width: 100%;
+    padding: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+
+.navbar a {
+
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+
+.navbar a:hover {
+
+    text-decoration:wavy;
+
+}
+
+.content{
+
+    display: flex;
+    align-content: end;
+    justify-content:space-between;
+}
+
+.footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+
+}
+
+.footer .social-media {
+
+    display: flex;
+    gap: 10px;
+
+}
+
+.footer .contact-info {
+
+    display: flex;
+    gap: 10px;
+
+}
+
+.right-else9{
+
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    flex-direction: column;
+    
+}
+
+#no1{
+
+    padding-right: 20px; /* Create a space of 20px from the right border */
+}
+
+#no2{
+
+    padding-right: 20px; /* Create a space of 20px from the right border */
+}
+
+#no3{
+
+    padding-right: 20px; /* Create a space of 20px from the right border */
+}
+
+.right-else9 img
+{
+    max-width: 100%; /* Ensure the image does not exceed its container width */
+    height: 400px; /* Maintain the image's aspect ratio */
+    filter:grayscale(1);
+
+}
+
+.right-else9 img:hover{
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    filter:grayscale(0);
+
+}
+
+.content h2 {
+
+    color: #01692C;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+#section1, #section2{
+
+    transition: margin-left 0.3s, box-shadow 0.3s; /* Add a smooth transition effect */
+    border: #00A129;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+
+}
+
+#section3{
+
+    transition: margin-left 0.3s, box-shadow 0.3s; /* Add a smooth transition effect */
+    border: #00A129;
+    width: 600px;
+    height: 250px;
+    text-align: center;
+
+}
+
+#section4{
+
+    transition: margin-left 0.3s, box-shadow 0.3s; /* Add a smooth transition effect */
+    border: #00A129;
+    width: 600px;
+    height: 250px;
+    text-align: center;
+
+}
+
+#section1:hover {
+    margin-left: 200px; /* Move away from the left by 20px on hover */
+    
+}
+
+#section2:hover {
+    margin-left: 200px; /* Move away from the left by 20px on hover */
+    
+}
+
+#section3:hover {
+    margin-left: 200px; /* Move away from the left by 20px on hover */
+    
+}
+
+#section4:hover {
+    margin-left: 200px; /* Move away from the left by 20px on hover */
+    
+}
+
+
+
+
+
+
+
+
+
+
+.content2{
+
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.left-else9{
+
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    flex-direction: column;
+    
+}
+
+#no1{
+
+    padding-left: 20px; /* Create a space of 20px from the left border */
+}
+
+#no2{
+
+    padding-left: 20px; /* Create a space of 20px from the left border */
+}
+
+#no3{
+
+    padding-left: 20px; /* Create a space of 20px from the left border */
+}
+
+.left-else9 img
+{
+    max-width: 100%; /* Ensure the image does not exceed its container width */
+    height: 400px; /* Maintain the image's aspect ratio */
+    filter:grayscale(1);
+
+}
+
+.left-else9 img:hover{
+
+    
+    filter:grayscale(0);
+
+}
+
+.content2 h2 {
+
+    color: #01692C;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+#section5, #section6{
+
+    border: #00A129;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    transition: 0.3s;
+
+}
+
+#section7{
+
+    transition: 0.3s;
+    border: #00A129;
+    width: 600px;
+    height: 250px;
+    text-align: center;
+
+}
+
+#section8{
+
+    transition: 0.3s;
+    border: #00A129;
+    width: 600px;
+    height: 250px;
+    text-align: center;
+
+}
+
+#section5:hover {
+    transition: 0.3s !important;
+    position: relative; /* Move away from the left by 20px on hover */
+    right: 200px;
+}
+
+#section6:hover {
+    transition: 0.3s;
+    position: relative;
+    right: 200px;
+}
+
+#section7:hover {
+    transition: 0.3s;
+    position: relative;
+     right: 200px;
+}
+
+#section8:hover {
+    transition: 0.3s;
+    position: relative;
+     right: 200px;
+}
